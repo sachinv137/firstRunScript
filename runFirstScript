@@ -1,0 +1,10 @@
+function loadScript(src) {
+        let script = document.createElement('script');
+        script.src = src;
+        script.async = false;
+        document.body.append(script);
+    }
+    loadScript("https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js");
+
+    <script type="text/javascript" src="/Content/js/bootstrap.js" defer></script>
+    <script type="text/javascript" src="/Content/js/bootstrap.js" async ></script>
